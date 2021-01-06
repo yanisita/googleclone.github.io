@@ -1,5 +1,6 @@
 body {
   background-image:url("https://cdnb.artstation.com/p/assets/images/images/005/950/485/medium/arseniy-chebynkin-tokyo-street-sunset.jpg?1494938744");
+  background-repeat: no-repeat;
 }
 .nav-bar {
   display: flex;
@@ -34,4 +35,81 @@ body {
   display: block;
   text-align: center;
   margin-top: 100px;
+}
+
+
+.search-bar .search {
+  width: 469px;
+  height: 42px;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #dbdbe2;
+  border-radius: 100px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+
+}
+.search-bar .search::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: grey;
+    padding: 40px;
+
+}
+
+.search-bar .search-icon{
+	height: 15px;
+  width: 15px;
+  margin-left: 425px;
+  margin-top: -39px;
+  display: flex;
+  align-items:flex-start;
+}
+.search-bar .micro-icon{
+	height: 21px;
+  width: 16px;
+  margin-left: 840px;
+  margin-top: -17px;
+  display: flex;
+  align-items:flex-start;
+}
+
+.apps-bar {
+    margin-top: 30px;
+}
+
+.apps-bar img {
+  border-radius: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.apps-names {
+  text-align: center;
+  display: inline-flex;
+  margin-top: -35px;
+  margin-left: 15px;
+
+}
+.apps-names p{
+  padding: 20px;
+  color: white;
+}
+.footer {
+  display: flex;
+  margin-top: 90px;
+  margin-left: -20px;
+
+
+}
+.footer ul {
+  list-style: none;
+  display: flex;
+  justify-content:space-between;
+}
+
+.footer  a {
+  color: white;
+  padding: 10px;
+}
+#pencil {
+  margin-left: 1000px;
+  
 }
