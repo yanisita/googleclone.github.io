@@ -37,10 +37,8 @@ body {
 #user {
   border-radius: 100%;
 }
-#logo {
-    height: 92px;
-    width: 272px;
-
+.nav-bar nav a:hover {
+  text-decoration: underline;
 }
 .google-logo{
   display: block;
@@ -126,6 +124,7 @@ main .main-input .micro-icon {
   border-radius: 100%;
   text-align: center;
   padding: 20px;
+  cursor: pointer;
 }
 .apps-names {
   text-align: center;
@@ -133,25 +132,28 @@ main .main-input .micro-icon {
   margin-top: -35px;
   margin-left: 15px;
 
+
 }
 .apps-names p{
   padding: 20px;
   color: white;
+  cursor: pointer;
 }
-.footer {
+footer {
+  padding: 5px;
+}
+footer ul {
   display: flex;
-  margin-top: 90px;
-  margin-left: -20px;
-
-
+  justify-content: space-between;
+  /* align-items: center; */
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.footer ul {
+footer ul li {
   list-style: none;
-  display: flex;
-  justify-content:space-between;
-}
+  font-size: 15px;
 
-.footer  a {
+}
+footer nav a {
   color: white;
-  padding: 10px;
 }
